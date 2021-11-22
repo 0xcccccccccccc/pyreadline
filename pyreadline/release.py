@@ -14,14 +14,14 @@ $Id$"""
 
 # Name of the package for release purposes.  This is the name which labels
 # the tarballs and RPMs made by distutils, so it's best to lowercase it.
-name = 'pyreadline'
+name = 'pyreadline_py310'
 
 # For versions with substrings (like 0.6.16.svn), use an extra . to separate
 # the new substring.  We have to avoid using either dashes or underscores,
 # because bdist_rpm does not accept dashes (an RPM) convention, and
 # bdist_deb does not accept underscores (a Debian convention).
 
-branch = ''
+branch = 'python 3.10 patch'
 
 version = '2.0'
 
